@@ -52,6 +52,8 @@ img { -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; }
 
 .navbar-inner {
   background-color: grey;
+  opacity: 0.92;
+  filter: alpha(opacity=92);
   background-image: none;
   background-repeat: none;
   border: none;
@@ -109,14 +111,14 @@ img { -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; }
 	background-repeat: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
-	border: 1px solid grey !important;
+	border: 1px solid white !important;
 	box-sizing: none !important;
 }
 
 .icon-bar {
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
-	background-color: grey !important;
+	background-color: white !important;
 }
 
 @media (max-width: 979px) {
