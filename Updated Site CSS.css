@@ -66,6 +66,11 @@ img { -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; }
   box-shadow: none;
 }
 
+.nav {
+	width: 100%;
+	display: table;
+}
+
 .nav li, .nav li.current_page_item {
   border-bottom: none;
 }
