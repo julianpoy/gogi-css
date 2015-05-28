@@ -51,7 +51,7 @@ img { -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; }
 
 
 .navbar-inner {
-  background-color: whitesmoke;
+  background-color: grey;
   background-image: none;
   background-repeat: none;
   border: none;
@@ -59,7 +59,7 @@ img { -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; }
   box-shadow: none;
 }
 .navbar-fixed-top {
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
 }
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
   -webkit-box-shadow: none;
@@ -80,13 +80,26 @@ img { -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; }
   transition: all .2s ease;
 }
 
+.nav li:hover {
+	background-color: whitesmoke;
+}
+
 .nav li.current_page_item {
 	border-bottom: none;
-	background-color: white;
+	color: black;
+	background-color: whitesmoke;
+}
+
+.nav li.current_page_item a {
+	color: black !important;
 }
 
 .nav li a {
 	border-right: none; border-left: none;
+}
+
+.navbar .nav li a {
+	color: white; text-shadow: none;
 }
 
 .btn-navbar {
