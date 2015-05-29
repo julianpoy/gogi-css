@@ -131,6 +131,10 @@ img { -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; }
         width: 90px;
         height: 51px;
     }
+
+	.home-blurb .post-content {
+		text-align: center;
+	}
 }
 
 iframe {
