@@ -104,6 +104,10 @@ img { -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; }
 	color: white; text-shadow: none;
 }
 
+.nav li.page-item-306 {
+  background-color: inherit;
+}
+
 .btn-navbar {
 	text-shadow: none !important;
 	background-color: transparent !important;
@@ -130,6 +134,18 @@ img { -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; }
         background-size: 196%;
         width: 90px;
         height: 51px;
+    }
+
+    .page-item-544 {
+      display: none;
+    }
+
+    .page-item-385 {
+      display: none;
+    }
+
+    .sidebar {
+      display:none;
     }
 
 	.home-blurb .post-content {
